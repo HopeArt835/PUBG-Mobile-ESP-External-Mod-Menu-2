@@ -12,9 +12,9 @@ Or get existing dumps here: https://github.com/kp7742/UE4Dumper/tree/master/SDKs
 
 ![](https://i.imgur.com/IjXC920.png)
 
-![](https://i.imgur.com/Oiaruir.jpg)
+![](https://i.imgur.com/YdL36NI.png)
 
-![](https://i.imgur.com/fKWK6cT.jpg)
+![](https://i.imgur.com/JK3A88m.png)
 
 # Credit
 DOOM: https://t.me/najam_pubg/54860

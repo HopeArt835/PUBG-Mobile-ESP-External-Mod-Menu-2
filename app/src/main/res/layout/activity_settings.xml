@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/doom_only_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@id/imageView2"
+        android:layout_width="140dp"
+        android:layout_height="167dp"
+        android:src="@drawable/icon"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="534dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lolbold"
+            android:gravity="center"
+            android:text="الاعدادات"
+            android:textColor="#FFFFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@id/button_qestgl"
+            android:layout_width="346dp"
+            android:layout_height="39dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/tbx_bt"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="انشاء قيست جديد / عالميه"
+            android:textColor="#FF0D1233"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@id/button_qestkr"
+            android:layout_width="346dp"
+            android:layout_height="39dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/tbx_bt"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="انشاء قيست جديد / كوريه"
+            android:textColor="#FF0D1233"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@id/button_datagl"
+            android:layout_width="346dp"
+            android:layout_height="39dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/tbx_bt"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="تنظيف الداتا / عالميه"
+            android:textColor="#FF0D1233"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@id/button_datakr"
+            android:layout_width="346dp"
+            android:layout_height="39dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/tbx_bt"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="تنظيف الداتا / كوريه"
+            android:textColor="#FF0D1233"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@id/d_new"
+            android:layout_width="346dp"
+            android:layout_height="39dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/tbx_bt"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="تحميل ملفات الهاك"
+            android:textColor="#FF0D1233"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@id/d_old"
+            android:layout_width="346dp"
+            android:layout_height="39dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/tbx_bt"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="حذف ملفات الهاك"
+            android:textColor="#FF0D1233"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doom_only_bg">
+
+    <TextView
+        android:layout_width="345dp"
+        android:layout_height="72dp"
+        android:text="SELECT PUBG VERSION"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <RadioGroup
+        android:id="@+id/grp"
+        android:layout_width="196dp"
+        android:layout_height="274dp"
+        android:background="@drawable/radio"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709">
+
+        <RadioButton
+            android:id="@+id/glo"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Global"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/kor"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background="@drawable/radio"
+            android:text="Korean"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/vie"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:background="@drawable/radio"
+            android:text="Vietnam"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/tai"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/radio"
+            android:text="Taiwan"
+            android:textColor="#fff" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/server"
+        android:layout_width="201dp"
+        android:layout_height="62dp"
+        android:background="@drawable/radio"
+        android:text="Select server"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+</androidx.constraintlayout.widget.ConstraintLayout>

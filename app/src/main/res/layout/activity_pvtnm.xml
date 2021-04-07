@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/doom_only_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageView2" android:layout_width="140dp" android:layout_height="167dp" android:src="@drawable/icon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/imageView2">
+        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#fff" android:gravity="center" android:layout_width="match_parent" android:layout_height="50dp" android:text="PUBG VTNM" android:fontFamily="@font/lolbold"/>
+        <Button android:textSize="20sp" android:textStyle="bold" android:textColor="#0d1233" android:gravity="center" android:background="@drawable/tbx_bt" android:padding="5dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_margin="20dp" android:text="ACTIVATE"/>
+        <Button android:textSize="20sp" android:textStyle="bold" android:textColor="#0d1233" android:gravity="center" android:background="@drawable/tbx_bt" android:padding="5dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_margin="20dp" android:text="DEACTIVATE"/>
+        <Button android:textSize="20sp" android:textStyle="bold" android:textColor="#0d1233" android:gravity="center" android:background="@drawable/tbx_bt" android:padding="5dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_margin="20dp" android:text="CLEAR LOGS"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

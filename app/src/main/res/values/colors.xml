@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#d81b60</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574b</color>
+    <color name="red">#F44336</color>
+    <color name="white">#F5EFEE</color>
+    <color name="fui_buttonShadow" />
+    <color name="fui_bgEmail">#F44336</color>
+    <color name="fui_bgFacebook">#F44336</color>
+    <color name="fui_bgGoogle">#F44336</color>
+    <color name="fui_bgPhone">#F44336</color>
+    <color name="fui_bgTwitter">#F44336</color>
+    <color name="edit_text_bg_color">#F44336</color>
+    <color name="grey_light">#F44336</color>
+
+</resources>

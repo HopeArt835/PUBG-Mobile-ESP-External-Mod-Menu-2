@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doom_only_bg"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="307dp"
+        android:layout_height="335dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="50dp"
+            android:fontFamily="@font/coolvetica_rg"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text="Advance Log Cleaner : "
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/button_sta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.383"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.508" />
+
+        <Button
+            android:id="@+id/button_sta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="#811d1d1c"
+            android:gravity="center"
+            android:text="Start Log Cleaner"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/button_sto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="#811d1d1c"
+            android:gravity="center"
+            android:text="Stop Log Cleaner"
+            android:textColor="#fff"
+            app:layout_constraintTop_toBottomOf="@+id/button_sta" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/lolbold"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="Relax Antiban"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="50dp"
+        android:fontFamily="@font/coolvetica_rg"
+        android:paddingTop="10dp"
+        android:text="Host Feature : "
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_sto"
+        app:layout_constraintVertical_bias="1"
+        tools:ignore="NotSibling" />
+
+    <Button
+        android:id="@+id/hoch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="Download Hosts"
+        android:textColor="#fff"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/hore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/status_bg"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:text="Hosts File will be Downloaded in Root SDCard Directory as Host.txt .Take help of any App Like Virtual Hosts to Use it ;)"
+        android:textColor="#000"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/hoch" />
+
+    <Button
+        android:id="@+id/vhosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="Download Virtual Hosts"
+        android:textColor="#fff"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/hore" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DOOM</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="password">باسوورد</string>
+    <string name="enter_email">الايميل</string>
+    <string name="start_your_patched_pubg">Start Your PatcHed PUBG :</string>
+    <string name="old_method">Old Method</string>
+    <string name="new_method">New Method</string>
+    <string name="winner_winner_chicken_dinner">Winner Winner Chicken Dinner !</string>
+    <string name="logout">Logout</string>
+    <string name="delay_after_pubg_starts_in_seconds">Delay after PUBG Starts in Seconds</string>
+    <string name="clear_logs">Clear Logs</string>
+    <string name="pubg_0_17_x">PUBG 0.18.X</string>
+    <string name="click_to_view_progress_dialog">Click To View Progress Dialog...</string>
+    <string name="setting">SETTING</string>
+    <string name="esp">ESP</string>
+    <string name="top_icon" />
+    <string name="email" />
+    <string name="google_icon" />
+    <string name="facebook_icon" />
+    <string name="start_cheat" />
+    <string name="version">VERSION</string>
+    <string name="copyright_2020_ccaster_com">Copyright © 2020 ᐈ CCASTER.COM</string>
+    <string name="stop_cheat">STOP Cheat</string>
+    <string name="a">a</string>
+    <string name="you_are_logged_in">You Are Logged In!</string>
+    <string name="root">Root</string>
+    <string name="non_root">Non Root</string>
+    <string name="todo">TODO</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_check_circle_black" />
+    <drawable name="ic_dnd_forwardslash_black" />
+    <drawable name="ic_cancel_white" />
+    <drawable name="customborder" />
+</resources>

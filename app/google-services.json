@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543767220863",
+    "firebase_url": "https://doom-dae96.firebaseio.com",
+    "project_id": "doom-dae96",
+    "storage_bucket": "doom-dae96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543767220863:android:38b60a776d9647557fe54a",
+        "android_client_info": {
+          "package_name": "tggod.doom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543767220863-736afn2i7unaip836frnl2k0nrh8cpem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tggod.doom",
+            "certificate_hash": "120c3a398de2482b52e1535bbe32e46c28e1f84d"
+          }
+        },
+        {
+          "client_id": "543767220863-6h6s4h3vfff3micptn15mgacvhko64s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm9wVKeDwBK2g7Y4Rf1BQtMxJ9x954rw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543767220863-6h6s4h3vfff3micptn15mgacvhko64s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

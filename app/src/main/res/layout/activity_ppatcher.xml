@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/vieww"
+        android:layout_width="484dp"
+        android:layout_height="1017dp"
+        android:foreground="@drawable/doom_only_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/lolbold"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/start_your_patched_pubg"
+        android:textAlignment="center"
+        android:background="@drawable/bg_root_bg"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileEmail"
+        app:layout_constraintVertical_bias="1" />
+    <FrameLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.946" />
+    <GridLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487">
+        <Button
+            android:id="@+id/pubgG"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/iconglobal"
+            android:fontFamily="@font/coolvetica_rg"
+            app:layout_constraintBottom_toTopOf="@+id/pubg_vng"
+            app:layout_constraintEnd_toEndOf="@+id/pubg_vng"
+            app:layout_constraintStart_toStartOf="@+id/pubg_vng" />
+        <Button
+            android:id="@+id/pubg_vng"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/iconvng"
+            app:layout_constraintBottom_toTopOf="@+id/pubg_korean"
+            app:layout_constraintEnd_toEndOf="@+id/pubg_korean"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@+id/pubg_korean" />
+        <Button
+            android:id="@+id/pubg_korean"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/iconkr"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/pubg_rekoo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/icontw"
+            android:fontFamily="@font/coolvetica_rg"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </GridLayout>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/lolbold"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/winner_winner_chicken_dinner"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tbx_abt"
+        android:padding="10dp"
+        android:text="@string/logout"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="@+id/profileEmail"
+        app:layout_constraintEnd_toEndOf="@+id/profileEmail"
+        app:layout_constraintTop_toTopOf="@+id/profileEmail" />
+    <TextView
+        android:id="@+id/profileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_margin="35dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_states"
+        android:padding="10dp"
+        android:text="Email"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="UnknownId" />
+    <TextView
+        android:id="@+id/textViewa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/delay_after_pubg_starts_in_seconds"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
+    <RelativeLayout
+        android:id="@+id/delay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/nkrscrolls"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewa">
+        <com.xw.repo.BubbleSeekBar
+            android:id="@+id/pubgDelayBubbleSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:scrollbarSize="5dp"
+            app:bsb_bubble_text_color="#fff"
+            app:bsb_max="20"
+            app:bsb_min="5"
+            app:bsb_section_text_position="bottom_sides"
+            app:bsb_seek_by_section="false"
+            app:bsb_show_progress_in_float="true"
+            app:bsb_show_section_text="true"
+            app:bsb_show_thumb_text="true"
+            app:bsb_track_color="#fff" />
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/nkrscrolls"
+        android:layout_width="407dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/delay">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#0d333333"
+            android:orientation="vertical"
+            android:padding="0dp">
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/button_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:text="تشغيل"
+                    android:textColor="#fff"
+                    app:layout_constraintTop_toBottomOf="@+id/delay" />
+
+                <Button
+                    android:id="@+id/button_off"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:text="ايقاف"
+                    android:textColor="#fff"
+                    app:layout_constraintTop_toBottomOf="@+id/delay" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/button_clear"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:text="مسح السجل"
+                    android:textColor="#fff"
+                    app:layout_constraintTop_toBottomOf="@+id/delay" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RadioButton
+        android:id="@+id/oldmethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/old_method"
+        android:textColor="#fff"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
+        app:layout_constraintStart_toStartOf="@+id/textView9" />
+    <RadioButton
+        android:id="@+id/newmethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_method"
+        android:textColor="#fff"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
+        app:layout_constraintEnd_toEndOf="@+id/textView9" />
+
+    <!--This will be the parent Floating Action Button-->
+    <!--After the implementation the Floating Action Button
+        at the bottom right corner-->
+    <!--After clicking the above button the following two buttons
+        will pop up. So this button is considered as parent FAB-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_root_bg"
+        android:src="@drawable/ic_baseline_add_24"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="TODO" />
+
+    <!--Floating action button for add alarm-->
+    <!--Make sure that you are constraining this
+        button to the parent button-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_alarm_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_root_bg"
+        android:src="@drawable/settings_wheel"
+        app:layout_constraintBottom_toTopOf="@+id/add_fab"
+        app:layout_constraintEnd_toEndOf="@+id/add_fab"
+        app:layout_constraintStart_toStartOf="@+id/add_fab"
+        app:srcCompat="@drawable/ic_add_alarm_black_24dp"
+        android:contentDescription="TODO" />
+
+    <!--Action name text for the add alarm button-->
+    <!--Make sure that you are constraining this Text to
+        the add Alarm FAB button-->
+    <TextView
+        android:id="@+id/add_alarm_action_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="الاعدادات"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="@+id/add_alarm_fab"
+        app:layout_constraintEnd_toStartOf="@+id/add_alarm_fab"
+        app:layout_constraintTop_toTopOf="@+id/add_alarm_fab" />
+
+    <!--Floating action button for add person-->
+    <!--Make sure that you are constraining this
+        button to the add Alarm FAB button-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_person_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo"
+        android:background="@drawable/bg_root_bg"
+        app:layout_constraintBottom_toTopOf="@+id/add_alarm_fab"
+        app:layout_constraintEnd_toEndOf="@+id/add_alarm_fab"
+        app:layout_constraintStart_toStartOf="@+id/add_alarm_fab"
+        app:srcCompat="@drawable/ic_person_add_black_24dp"
+        android:contentDescription="TODO" />
+
+    <!--Action name text for the add person button-->
+    <!--Make sure that you are constraining this Text
+        to the add Person FAB button-->
+    <TextView
+        android:id="@+id/add_person_action_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="ESP"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="@+id/add_person_fab"
+        app:layout_constraintEnd_toStartOf="@+id/add_person_fab"
+        app:layout_constraintTop_toTopOf="@+id/add_person_fab" />
+</androidx.constraintlayout.widget.ConstraintLayout>

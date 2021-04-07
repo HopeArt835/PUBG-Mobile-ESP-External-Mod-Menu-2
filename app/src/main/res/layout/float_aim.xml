@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="left|right|center_horizontal|fill_horizontal|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewEnd" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@+id/relativeLayoutParent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="vertical" android:id="@+id/layoutCollapsed" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/floatLogo" android:background="@drawable/ic_aimbot_button_on" android:layout_width="40dp" android:layout_height="40dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

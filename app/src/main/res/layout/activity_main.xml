@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doom_only_bg">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        android:layout_margin="30dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="386dp"
+            android:layout_gravity="center"
+            android:background="@drawable/doom_only_bg"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/email_input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tbx_bt"
+                android:drawablePadding="15dp"
+                android:elevation="20dp"
+                android:hint="@string/enter_email"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColor="#fff" />
+
+            <EditText
+                android:id="@+id/pass_input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tbx_bt"
+                android:drawablePadding="15dp"
+                android:elevation="20dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:clickable="true"
+                android:elevation="20dp"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/login"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/telegram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.711" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="241dp"
+        android:layout_height="147dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>
